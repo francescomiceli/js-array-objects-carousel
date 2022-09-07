@@ -96,8 +96,7 @@ function buildCarousel(images, activeIndex){
         const imageClass = i === activeIndex ? 'carousel-img active' : 'carousel-img'
         content += 
         `<img class="${imageClass}" src="${elementObject.url}" 
-        alt="${elementObject}" /> 
-        <div class="text">${elementObject.title} </div>`;
+        alt="${elementObject}" /> `;
         //END MODIFICATION
     }
     // console.log({content});
